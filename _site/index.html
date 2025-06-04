@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>Home | Akhilesh Kasturi</title>
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -43,7 +43,45 @@
 
   <!-- Main Content -->
   <main class="container mt-5 pt-5">
-    {{ content }}
+    <section id="about">
+  <div class="container">
+    <h2 class="text-center">About Me</h2>
+    <p class="lead text-center">I'm a graduate student specializing in AI/ML, passionate about building real-world solutions with research-driven innovation.</p>
+  </div>
+</section>
+
+<section id="projects" class="bg-light">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <ul>
+      <li><strong>Depth Estimation Fusion</strong>: Using DepthAnything + NuScenes LiDAR for BEV-based 3D understanding.</li>
+      <li><strong>Voice-Based Classification</strong>: Spectrogram-based models for gender/age detection.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="research">
+  <div class="container">
+    <h2 class="text-center">Research</h2>
+    <p>Currently working on robust 3D perception systems using LiDAR-Camera fusion, investigating generalization in real-world domains.</p>
+  </div>
+</section>
+
+<section id="resume" class="bg-light">
+  <div class="container text-center">
+    <h2>Resume</h2>
+    <a href="/assets/resume.pdf" class="btn btn-primary" target="_blank">Download Resume</a>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2 class="text-center">Contact</h2>
+    <p class="text-center">Email: your.email@example.com</p>
+    <p class="text-center">LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+  </div>
+</section>
+
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

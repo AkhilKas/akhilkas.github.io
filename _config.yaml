@@ -1,4 +1,5 @@
-title: "Akhilesh Kasturi"
-description: "AI/ML Portfolio"
-theme: null
-markdown: kramdown
+title: Akhilesh Kasturi
+description: AI/ML Portfolio
+baseurl: ""  # Leave empty for user site (akhilkas.github.io)
+url: "https://akhilkas.github.io"
+theme: minima

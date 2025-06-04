@@ -4,30 +4,40 @@ title: "Home"
 ---
 
 <section id="about">
-  <h2>About Me</h2>
-  <p>I am a graduate student specializing in Artificial Intelligence and Machine Learning. Passionate about research, development, and building impactful AI solutions.</p>
+  <div class="container">
+    <h2 class="text-center">About Me</h2>
+    <p class="lead text-center">I'm a graduate student specializing in AI/ML, passionate about building real-world solutions with research-driven innovation.</p>
+  </div>
 </section>
 
-<section id="projects">
-  <h2>Projects</h2>
-  <ul>
-    <li><strong>Depth Estimation with BEV Fusion</strong> – Integrated DepthAnything with NuScenes data for autonomous driving.</li>
-    <li><strong>Voice-Based Gender/Age Classification</strong> – Built deep learning models using spectrograms and audio features.</li>
-  </ul>
+<section id="projects" class="bg-light">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <ul>
+      <li><strong>Depth Estimation Fusion</strong>: Using DepthAnything + NuScenes LiDAR for BEV-based 3D understanding.</li>
+      <li><strong>Voice-Based Classification</strong>: Spectrogram-based models for gender/age detection.</li>
+    </ul>
+  </div>
 </section>
 
 <section id="research">
-  <h2>Research</h2>
-  <p>Currently working on robust 3D perception systems combining LiDAR and camera inputs using self-supervised learning techniques.</p>
+  <div class="container">
+    <h2 class="text-center">Research</h2>
+    <p>Currently working on robust 3D perception systems using LiDAR-Camera fusion, investigating generalization in real-world domains.</p>
+  </div>
 </section>
 
-<section id="resume">
-  <h2>Resume</h2>
-  <p><a href="assets/resume.pdf" target="_blank">Download My Resume (PDF)</a></p>
+<section id="resume" class="bg-light">
+  <div class="container text-center">
+    <h2>Resume</h2>
+    <a href="/assets/resume.pdf" class="btn btn-primary" target="_blank">Download Resume</a>
+  </div>
 </section>
 
 <section id="contact">
-  <h2>Contact</h2>
-  <p>Email: your.email@example.com</p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+  <div class="container">
+    <h2 class="text-center">Contact</h2>
+    <p class="text-center">Email: your.email@example.com</p>
+    <p class="text-center">LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+  </div>
 </section>
