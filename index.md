@@ -3,14 +3,14 @@ layout: default
 title: "Home"
 ---
 
-<section id="about">
+<section id="about" class="bg-body text-body">
   <div class="container">
     <h2 class="text-center">About Me</h2>
     <p class="lead text-center">I'm a graduate student specializing in AI/ML, passionate about building real-world solutions with research-driven innovation.</p>
   </div>
 </section>
 
-<section id="projects" class="bg-light">
+<section id="projects" class="bg-body text-body">
   <div class="container">
     <h2 class="text-center">Projects</h2>
     <ul>
@@ -20,21 +20,21 @@ title: "Home"
   </div>
 </section>
 
-<section id="research">
+<section id="research" class="bg-body text-body">
   <div class="container">
     <h2 class="text-center">Research</h2>
     <p>Currently working on robust 3D perception systems using LiDAR-Camera fusion, investigating generalization in real-world domains.</p>
   </div>
 </section>
 
-<section id="resume" class="bg-light">
+<section id="resume" class="bg-body text-body">
   <div class="container text-center">
     <h2>Resume</h2>
     <a href="/assets/resume.pdf" class="btn btn-primary" target="_blank">Download Resume</a>
   </div>
 </section>
 
-<section id="contact">
+<section id="contact" class="bg-body text-body">
   <div class="container">
     <h2 class="text-center">Contact</h2>
     <p class="text-center">Email: your.email@example.com</p>
