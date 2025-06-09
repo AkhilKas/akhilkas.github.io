@@ -12,9 +12,14 @@ body {
 }
 
 section {
-  padding: 60px 20px;
-  max-width: 800px;
-  margin: auto;
+  width: 100%;
+  margin: 0;
+  padding: 80px 0;
+}
+
+section > .container {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 section h2 {
@@ -22,13 +27,41 @@ section h2 {
   padding-bottom: 5px;
 }
 
-/* Navbar links */
-.navbar-nav .nav-link {
-  font-size: 1.1rem;
-  transition: color 0.2s ease, text-decoration 0.2s ease;
+/* Navbar links default style */
+
+.navbar-brand {
+  color: #212529 !important;  /* Bootstrap dark text */
 }
 
+.navbar-nav .nav-link {
+  position: relative;
+  font-size: 1.1rem;
+  color: #212529 !important;
+  transition: color 0.3s ease;
+}
+
+/* Create underline on hover */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #0d6efd; /* Bootstrap primary blue */
+  transition: width 0.3s ease;
+}
+
+/* Hover effect: text color + animated underline */
 .navbar-nav .nav-link:hover {
-  color: #ffc107 !important;
-  text-decoration: underline;
+  color: #0d6efd !important;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-nav .nav-link.active::after {
+  width: 100%;
 }
